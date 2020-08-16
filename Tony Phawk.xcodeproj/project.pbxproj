@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		8BFD0DAA1EB6CF320096848E /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD0DA91EB6CF320096848E /* ResourcePath.mm */; };
-		8BFD0DAD1EB6CF320096848E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD0DAC1EB6CF320096848E /* main.cpp */; };
 		8BFD0DB01EB6CF320096848E /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD0DAF1EB6CF320096848E /* cute_image.jpg */; };
 		8BFD0DB21EB6CF320096848E /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD0DB11EB6CF320096848E /* nice_music.ogg */; };
 		8BFD0DB41EB6CF320096848E /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD0DB31EB6CF320096848E /* sansation.ttf */; };
 		8BFD0DB61EB6CF320096848E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD0DB51EB6CF320096848E /* icon.png */; };
+		8BFD0DD11EB6CF740096848E /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD0DC01EB6CF740096848E /* game.cpp */; };
+		8BFD0DD21EB6CF740096848E /* images in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD0DC41EB6CF740096848E /* images */; };
+		8BFD0DD31EB6CF740096848E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD0DC61EB6CF740096848E /* LICENSE */; };
+		8BFD0DD41EB6CF740096848E /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD0DC81EB6CF740096848E /* Makefile */; };
+		8BFD0DD51EB6CF740096848E /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD0DCB1EB6CF740096848E /* Raleway-Regular.ttf */; };
+		8BFD0DD61EB6CF740096848E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD0DCC1EB6CF740096848E /* README.md */; };
+		8BFD0DD71EB6CF740096848E /* scores.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD0DCE1EB6CF740096848E /* scores.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,11 +26,31 @@
 		8BFD0DA81EB6CF320096848E /* Tony Phawk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tony Phawk-Info.plist"; sourceTree = "<group>"; };
 		8BFD0DA91EB6CF320096848E /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		8BFD0DAB1EB6CF320096848E /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
-		8BFD0DAC1EB6CF320096848E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8BFD0DAF1EB6CF320096848E /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
 		8BFD0DB11EB6CF320096848E /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		8BFD0DB31EB6CF320096848E /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
 		8BFD0DB51EB6CF320096848E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		8BFD0DBC1EB6CF740096848E /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Button.h; path = "Tony Phawk/Button.h"; sourceTree = "<group>"; };
+		8BFD0DBD1EB6CF740096848E /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Character.h; path = "Tony Phawk/Character.h"; sourceTree = "<group>"; };
+		8BFD0DBE1EB6CF740096848E /* definitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = definitions.h; path = "Tony Phawk/definitions.h"; sourceTree = "<group>"; };
+		8BFD0DBF1EB6CF740096848E /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Enemy.h; path = "Tony Phawk/Enemy.h"; sourceTree = "<group>"; };
+		8BFD0DC01EB6CF740096848E /* game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = game.cpp; path = "Tony Phawk/game.cpp"; sourceTree = "<group>"; };
+		8BFD0DC11EB6CF740096848E /* game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = game.h; path = "Tony Phawk/game.h"; sourceTree = "<group>"; };
+		8BFD0DC21EB6CF740096848E /* gWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gWindow.h; path = "Tony Phawk/gWindow.h"; sourceTree = "<group>"; };
+		8BFD0DC31EB6CF740096848E /* HealthBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HealthBar.h; path = "Tony Phawk/HealthBar.h"; sourceTree = "<group>"; };
+		8BFD0DC41EB6CF740096848E /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = "Tony Phawk/images"; sourceTree = "<group>"; };
+		8BFD0DC51EB6CF740096848E /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Level.h; path = "Tony Phawk/Level.h"; sourceTree = "<group>"; };
+		8BFD0DC61EB6CF740096848E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = "Tony Phawk/LICENSE"; sourceTree = "<group>"; };
+		8BFD0DC71EB6CF740096848E /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenu.h; path = "Tony Phawk/MainMenu.h"; sourceTree = "<group>"; };
+		8BFD0DC81EB6CF740096848E /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = "Tony Phawk/Makefile"; sourceTree = "<group>"; };
+		8BFD0DC91EB6CF740096848E /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = "Tony Phawk/Player.h"; sourceTree = "<group>"; };
+		8BFD0DCA1EB6CF740096848E /* Projectile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Projectile.h; path = "Tony Phawk/Projectile.h"; sourceTree = "<group>"; };
+		8BFD0DCB1EB6CF740096848E /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Regular.ttf"; path = "Tony Phawk/Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		8BFD0DCC1EB6CF740096848E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "Tony Phawk/README.md"; sourceTree = "<group>"; };
+		8BFD0DCD1EB6CF740096848E /* ScoreBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScoreBoard.h; path = "Tony Phawk/ScoreBoard.h"; sourceTree = "<group>"; };
+		8BFD0DCE1EB6CF740096848E /* scores.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = scores.txt; path = "Tony Phawk/scores.txt"; sourceTree = "<group>"; };
+		8BFD0DCF1EB6CF740096848E /* Wave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wave.h; path = "Tony Phawk/Wave.h"; sourceTree = "<group>"; };
+		8BFD0DD01EB6CF740096848E /* Weapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Weapon.h; path = "Tony Phawk/Weapon.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +67,27 @@
 		8BFD0D9A1EB6CF320096848E = {
 			isa = PBXGroup;
 			children = (
+				8BFD0DBC1EB6CF740096848E /* Button.h */,
+				8BFD0DBD1EB6CF740096848E /* Character.h */,
+				8BFD0DBE1EB6CF740096848E /* definitions.h */,
+				8BFD0DBF1EB6CF740096848E /* Enemy.h */,
+				8BFD0DC01EB6CF740096848E /* game.cpp */,
+				8BFD0DC11EB6CF740096848E /* game.h */,
+				8BFD0DC21EB6CF740096848E /* gWindow.h */,
+				8BFD0DC31EB6CF740096848E /* HealthBar.h */,
+				8BFD0DC41EB6CF740096848E /* images */,
+				8BFD0DC51EB6CF740096848E /* Level.h */,
+				8BFD0DC61EB6CF740096848E /* LICENSE */,
+				8BFD0DC71EB6CF740096848E /* MainMenu.h */,
+				8BFD0DC81EB6CF740096848E /* Makefile */,
+				8BFD0DC91EB6CF740096848E /* Player.h */,
+				8BFD0DCA1EB6CF740096848E /* Projectile.h */,
+				8BFD0DCB1EB6CF740096848E /* Raleway-Regular.ttf */,
+				8BFD0DCC1EB6CF740096848E /* README.md */,
+				8BFD0DCD1EB6CF740096848E /* ScoreBoard.h */,
+				8BFD0DCE1EB6CF740096848E /* scores.txt */,
+				8BFD0DCF1EB6CF740096848E /* Wave.h */,
+				8BFD0DD01EB6CF740096848E /* Weapon.h */,
 				8BFD0DA61EB6CF320096848E /* Tony Phawk */,
 				8BFD0DA51EB6CF320096848E /* Products */,
 			);
@@ -59,7 +106,6 @@
 			children = (
 				8BFD0DA91EB6CF320096848E /* ResourcePath.mm */,
 				8BFD0DAB1EB6CF320096848E /* ResourcePath.hpp */,
-				8BFD0DAC1EB6CF320096848E /* main.cpp */,
 				8BFD0DAE1EB6CF320096848E /* Resources */,
 				8BFD0DA71EB6CF320096848E /* Supporting Files */,
 			);
@@ -143,10 +189,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BFD0DD31EB6CF740096848E /* LICENSE in Resources */,
+				8BFD0DD21EB6CF740096848E /* images in Resources */,
 				8BFD0DB61EB6CF320096848E /* icon.png in Resources */,
+				8BFD0DD51EB6CF740096848E /* Raleway-Regular.ttf in Resources */,
 				8BFD0DB41EB6CF320096848E /* sansation.ttf in Resources */,
 				8BFD0DB21EB6CF320096848E /* nice_music.ogg in Resources */,
 				8BFD0DB01EB6CF320096848E /* cute_image.jpg in Resources */,
+				8BFD0DD71EB6CF740096848E /* scores.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,8 +223,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BFD0DAD1EB6CF320096848E /* main.cpp in Sources */,
 				8BFD0DAA1EB6CF320096848E /* ResourcePath.mm in Sources */,
+				8BFD0DD61EB6CF740096848E /* README.md in Sources */,
+				8BFD0DD41EB6CF740096848E /* Makefile in Sources */,
+				8BFD0DD11EB6CF740096848E /* game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
